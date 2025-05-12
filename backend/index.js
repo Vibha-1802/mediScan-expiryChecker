@@ -1,6 +1,6 @@
 import express from "express";
 import bodyParser from "body-parser";
-import db from "./config/pgDB.js";
+import db from "./src/config/pgDB.js";
 import cors from "cors";
 import env from "dotenv";
 import { qrRoutes } from "./src/routes/qrRoutes.js";
