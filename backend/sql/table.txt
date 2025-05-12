@@ -1,0 +1,22 @@
+//SCHEMA NAME=public SET search_path TO public
+create table tablets(
+tid SERIAL PRIMARY KEY,
+mid INT NOT NULL,
+expiry_date DATE,
+qrUUID UUID NOT NULL, 
+FOREIGN KEY (mid) REFERENCES medicines(id));
+
+create table medicines(
+id SERIAL PRIMARY KEY,
+medicine_name varchar(100),
+ingredient varchar(100),
+use varchar(100), 
+side_effect varchar(100),
+price INT);
+
+INSERT INTO tablets(mid, expiry_date, qrUUID)
+VALUES (1, '2025-12-31', 'c31969a9-fbfd-46ab-9299-9de45eb450a7');
+
+SELECT column_name, data_type 
+FROM information_schema.columns
+WHERE table_name = 'tablets';

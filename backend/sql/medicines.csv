@@ -1,0 +1,50 @@
+Medicine Name,Active Ingredient,Use,Common Side Effects,Approx Price (INR)
+Dolo-650,Paracetamol,Fever & Pain,"Nausea, Liver Toxicity (rare)",30
+Crocin,Paracetamol,Fever & Pain,"Headache, Liver Toxicity (rare)",30
+Calpol,Paracetamol,Fever & Pain,"Body Ache, Dizziness",30
+Combiflam,Ibuprofen + Paracetamol,Pain & Inflammation,"Stomach Upset, Drowsiness",50
+Flexon,Ibuprofen + Paracetamol,Pain & Fever,"Stomach Pain, Headache",50
+Cetzine,Cetirizine,Allergy,"Drowsiness, Dry Mouth",20
+Allegra,Fexofenadine,Allergy,"Headache, Dry Mouth",60
+Amoxil,Amoxicillin,Bacterial Infections,"Nausea, Diarrhea",100
+Augmentin,Amoxicillin + Clavulanic acid,Bacterial Infections,"Rash, Upset Stomach",200
+Azithral,Azithromycin,Throat & Respiratory Infection,"Stomach Pain, Loose Motions",120
+Ciplox,Ciprofloxacin,UTI & Gastro Infection,"Nausea, Joint Pain",90
+Omez,Omeprazole,Acidity,"Abdominal Pain, Dizziness",40
+Pan 40,Pantoprazole,Acidity & Ulcers,"Nausea, Flatulence",50
+Rantac,Ranitidine,Acidity & Gastric Problems,"Headache, Constipation",20
+Lomotil,Loperamide,Diarrhea,"Dry Mouth, Dizziness",25
+Eldoper,Loperamide,Diarrhea,"Drowsiness, Stomach Cramps",25
+Domstal,Domperidone,Nausea & Vomiting,"Dry Mouth, Headache",30
+Amlodac,Amlodipine,High Blood Pressure,"Swelling of Legs, Flushing",60
+Telma,Telmisartan,High Blood Pressure,"Dizziness, Back Pain",80
+Losar,Losartan,High Blood Pressure,"Dizziness, Fatigue",70
+Glycomet,Metformin,Diabetes,"Stomach Upset, Metallic Taste",50
+Amaryl,Glimepiride,Diabetes,"Hypoglycemia, Weight Gain",100
+Janumet,Sitagliptin + Metformin,Diabetes,"Nausea, Headache",300
+Atorva,Atorvastatin,Cholesterol Control,"Muscle Pain, Liver Enzyme Rise",120
+Rosuvas,Rosuvastatin,Cholesterol Control,"Muscle Weakness, Joint Pain",140
+Levolin,Levosalbutamol,Asthma,"Shakiness, Palpitations",70
+Ventolin,Salbutamol,Asthma,"Tremors, Headache",80
+Thyronorm,Levothyroxine,Thyroid Deficiency,"Palpitations, Anxiety",50
+Eltroxin,Levothyroxine,Thyroid Deficiency,"Weight Loss, Heat Intolerance",60
+Ecosprin,Aspirin,Heart Disease Prevention,"Bleeding, Nausea",40
+Clopilet,Clopidogrel,Heart Disease Prevention,"Rash, Bleeding",80
+Betnesol,Betamethasone,Inflammation & Allergy,"Weight Gain, Acne",30
+Predni,Prednisolone,Inflammation,"Mood Swings, Increased Appetite",50
+Metrogel,Metronidazole,Parasitic Infections,"Metallic Taste, Nausea",90
+Tiniba,Tinidazole,Parasitic Infections,"Nausea, Bitter Taste",80
+Bactrim,Trimethoprim-Sulfamethoxazole,Bacterial Infections,"Rash, Nausea",100
+Oflox,Ofloxacin,Bacterial Infections,"Dizziness, Diarrhea",110
+Levoflox,Levofloxacin,Bacterial Infections,"Nausea, Insomnia",120
+Erythro,Erythromycin,Bacterial Infections,"Nausea, Stomach Pain",110
+Humalog,Insulin Lispro,Diabetes,"Hypoglycemia, Injection Site Pain",500
+Insulatard,Insulin NPH,Diabetes,"Hypoglycemia, Allergic Reaction",450
+Mixtard,Insulin Mixture,Diabetes,"Hypoglycemia, Injection Site Reaction",450
+Actrapid,Insulin,Diabetes,"Hypoglycemia, Local Irritation",450
+Calcium Sandoz,Calcium Supplement,Bone Health,"Constipation, Stomach Upset",150
+Shelcal,Calcium + Vitamin D3,Bone Health,"Nausea, Bloating",160
+D3 Must,Vitamin D3,Vitamin D Deficiency,"Metallic Taste, Nausea",180
+Liv 52,Herbal Liver Tonic,Liver Support,"Upset Stomach, Allergy (rare)",90
+Digene,Magnesium + Aluminum Hydroxide,Acidity,"Bloating, Constipation",20
+ORS Sachet,Glucose + Electrolytes,Dehydration,No Major Side Effects,20
