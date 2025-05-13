@@ -20,3 +20,7 @@ VALUES (1, '2025-12-31', 'c31969a9-fbfd-46ab-9299-9de45eb450a7');
 SELECT column_name, data_type 
 FROM information_schema.columns
 WHERE table_name = 'tablets';
+
+INSERT INTO production_staff (name, username, password_hash)
+VALUES ('Admin User', 'admin', '$2b$10$VAthlnyCeaHHD4FoRx3tjuMHmluAoaJ9CKwW44kgyXnimuIxL1U32');
+admin 123
