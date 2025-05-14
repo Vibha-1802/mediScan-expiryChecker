@@ -24,10 +24,10 @@ INSERT INTO tablets(mid, expiry_date, qrUUID)
 VALUES (1, '2025-12-31', 'c31969a9-fbfd-46ab-9299-9de45eb450a7');
 
 INSERT INTO tablets(mid, expiry_date, qrUUID)
-VALUES (2, '2025-12-31', 'dd7f6143-8801-4f9f-9b44-0768acba40e8');
+VALUES (2, '2025-05-13', 'dd7f6143-8801-4f9f-9b44-0768acba40e8');
 
 INSERT INTO tablets(mid, expiry_date, qrUUID)
-VALUES (49, '2025-12-31', '7bbca690-8b8b-4a04-8c6a-7390bc3a2d90');
+VALUES (49, '2025-05-18', '7bbca690-8b8b-4a04-8c6a-7390bc3a2d90');
 
 //NEW VALUES ADDED FROM WEBSITE
 dd7f6143-8801-4f9f-9b44-0768acba40e8
