@@ -5,6 +5,8 @@ import cors from "cors";
 import env from "dotenv";
 import { qrRoutes } from "./src/routes/qrRoutes.js";
 import { loginRoutes } from "./src/routes/loginRoutes.js";
+import { medicineRoutes } from './src/routes/medicineRoutes.js';
+import { tabletRoutes } from "./src/routes/tabletRoutes.js";
 const app=express()
 env.config()
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -18,6 +20,8 @@ db.connect().then(()=>{
 db.query("SET search_path TO public")
 app.use("/qr",qrRoutes)
 app.use("/production-login",loginRoutes)
+app.use("/generation", tabletRoutes);
+app.use("/medicines", medicineRoutes);
 app.listen(5000,()=>{
     console.log("server listening on port 5000")
 })

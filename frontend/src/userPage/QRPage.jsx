@@ -41,9 +41,22 @@ function QRPage() {
             setStatus('✅ Data received from backend!');
          })
            .catch((err) => {
-            console.error('❌ Error sending UUID:', err);
-            setStatus('❌ Backend error: ' + err.message);
-          });
+  if (err.response) {
+    if (err.response.status === 404) {
+      console.error('❌ Fake medicine: UUID not found');
+      setStatus('❌ Fake medicine: UUID not found');
+    } else if (err.response.status === 400) {
+      console.error('❌ Invalid UUID format');
+      setStatus('❌ Invalid QR Code or UUID format');
+    } else {
+      console.error('❌ Unexpected backend error:', err.response.status);
+      setStatus('❌ Server error. Please try again later.');
+    }
+  } else {
+    console.error('❌ Network error:', err.message);
+    setStatus('❌ Network error. Please check your connection.');
+  }
+});
         } 
         else {
           setUUID('');
@@ -69,7 +82,6 @@ function QRPage() {
     />
     {status && <p style={{ marginTop: '1rem' }}>{status}</p>}
 
-    {/* Display the medicine information if available */}
     {medicineData && (
       <div style={{ marginTop: '2rem' }}>
         <h3>Medicine Information</h3>
@@ -114,3 +126,4 @@ function QRPage() {
 }
 
 export default QRPage;
+

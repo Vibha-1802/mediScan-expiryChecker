@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import { useNavigate } from "react-router-dom";
 
 function ProductionLogin() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [message, setMessage] = useState(''); // message to display on page
+  const navigate = useNavigate();
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -18,6 +20,10 @@ function ProductionLogin() {
       .then((response) => {
         setMessage('Login successful!');
         console.log('User:', response.data.user);
+        localStorage.setItem('isLoggedIn', 'true');
+      setTimeout(() => {
+          navigate('/generation');
+        }, 2000); 
       })
       .catch((error) => {
         if (error.response) {
@@ -27,6 +33,7 @@ function ProductionLogin() {
         }
       });
   };
+
 
   return (
     <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>

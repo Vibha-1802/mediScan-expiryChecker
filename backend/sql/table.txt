@@ -14,13 +14,25 @@ use varchar(100),
 side_effect varchar(100),
 price INT);
 
+create table production_staff(
+id SERIAL PRIMARY KEY,
+name varchar(50),
+username varchar(50),
+password_hash varchar(70));
+
 INSERT INTO tablets(mid, expiry_date, qrUUID)
 VALUES (1, '2025-12-31', 'c31969a9-fbfd-46ab-9299-9de45eb450a7');
 
-SELECT column_name, data_type 
-FROM information_schema.columns
-WHERE table_name = 'tablets';
+INSERT INTO tablets(mid, expiry_date, qrUUID)
+VALUES (2, '2025-12-31', 'dd7f6143-8801-4f9f-9b44-0768acba40e8');
+
+INSERT INTO tablets(mid, expiry_date, qrUUID)
+VALUES (49, '2025-12-31', '7bbca690-8b8b-4a04-8c6a-7390bc3a2d90');
+
+//NEW VALUES ADDED FROM WEBSITE
+dd7f6143-8801-4f9f-9b44-0768acba40e8
+7bbca690-8b8b-4a04-8c6a-7390bc3a2d90
 
 INSERT INTO production_staff (name, username, password_hash)
 VALUES ('Admin User', 'admin', '$2b$10$VAthlnyCeaHHD4FoRx3tjuMHmluAoaJ9CKwW44kgyXnimuIxL1U32');
-admin 123
+//password:admin 123
