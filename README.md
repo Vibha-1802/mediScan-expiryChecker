@@ -110,7 +110,7 @@ CORS_ORIGIN_URL=http://localhost:5173
 
 ## **📸 Video prototype**
 
-
+https://github.com/user-attachments/assets/b4a35345-72d4-4702-aad2-d7ad744c6a8f
 
 ---
 
@@ -127,4 +127,3 @@ CORS_ORIGIN_URL=http://localhost:5173
 
 MediScan improves public safety by enabling **secure QR-based medicine verification**, helping users avoid fake or expired medicines while enhancing transparency in the pharmaceutical supply chain.
 
-✅ rewrite it shorter for internships/college submission
